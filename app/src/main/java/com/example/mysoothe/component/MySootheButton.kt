@@ -25,13 +25,3 @@ fun MySootheButton(
     }
 }
 
-@Composable
-fun ButtonInsideText(
-    text: String,
-    modifier: Modifier = Modifier,
-){
-    Text(text = text,
-        modifier = modifier,
-        style=MaterialTheme.typography.button,
-        color = MaterialTheme.colors.onPrimary)
-}

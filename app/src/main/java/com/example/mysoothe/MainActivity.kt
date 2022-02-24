@@ -8,6 +8,7 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.mysoothe.screen.home.HomeScreen
 import com.example.mysoothe.screen.login.LoginScreen
 import com.example.mysoothe.screen.welcome.WelcomeScreen
 import com.example.mysoothe.ui.theme.MySootheTheme
@@ -17,7 +18,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             MySootheTheme {
-                LoginScreen()
+                HomeScreen()
             }
         }
     }

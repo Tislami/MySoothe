@@ -8,4 +8,10 @@
     <string name="password">Password</string>
     <string name="login_question_text">Don\'t have an account?</string>
     <string name="sign_up_login">Sign up</string>
+
+    <string name="search">Search</string>
+    <string name="favorite_collections">FAVORITE COLLECTIONS</string>
+    <string name="align_your_body">AlIGN YOUR BODY</string>
+    <string name="align_your_mind">AlIGN YOUR MIND</string>
+
 </resources>

@@ -15,7 +15,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.example.mysoothe.R
-import com.example.mysoothe.component.LoginTextField
+import com.example.mysoothe.component.MySootheTextField
 import com.example.mysoothe.component.MySootheButton
 
 @Composable
@@ -68,7 +68,7 @@ private fun LoginInputContent() {
         modifier = Modifier.paddingFromBaseline(bottom = 32.dp)
     )
 
-    LoginTextField(
+    MySootheTextField(
         value = "",
         onValueChange = {},
         text = stringResource(id = R.string.email_address)
@@ -76,7 +76,7 @@ private fun LoginInputContent() {
 
     Spacer(modifier = Modifier.height(8.dp))
 
-    LoginTextField(
+    MySootheTextField(
         value = "",
         onValueChange = {},
         text = stringResource(id = R.string.password)
