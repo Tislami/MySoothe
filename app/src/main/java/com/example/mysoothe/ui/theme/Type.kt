@@ -10,40 +10,42 @@ import androidx.compose.ui.unit.sp
 import com.example.mysoothe.R
 
 
-val KulimPark = FontFamily(
-    Font(R.font.kulim_park_light,weight= FontWeight.Light),
-    Font(R.font.kulim_park_regular, weight= FontWeight.)
-)
-
-val LatoBold = FontFamily(
-    Font(R.font.lato_regular),
-    Font(R.font.lato_bold)
-)
+val KulimParkLight = FontFamily(Font(R.font.kulim_park_light))
+val KulimParkRegular = FontFamily(Font(R.font.kulim_park_regular))
+val LatoBold = FontFamily(Font(R.font.lato_bold))
+val LatoRegular = FontFamily(Font(R.font.lato_regular))
 
 
 val Typography = Typography(
     h1 = TextStyle(
-        fontFamily = KulimPark,
-        fontWeight = FontWeight.Light,
+        fontFamily = KulimParkLight,
         fontSize = 28.sp,
         letterSpacing = (1.15).sp
     ),
     h2 = TextStyle(
-        fontFamily = KulimPark.Li,
-        fontWeight = KulimPark,
+        fontFamily = KulimParkRegular,
         fontSize = 15.sp,
         letterSpacing = (1.15).sp
-    )
-    /* Other default text styles to override
+    ),
+    h3 = TextStyle(
+        fontFamily = LatoBold,
+        fontSize = 14.sp,
+        letterSpacing = 0.sp
+    ),
+    body1 = TextStyle(
+        fontFamily = LatoRegular,
+        fontSize = 14.sp,
+        letterSpacing = 0.sp
+    ),
     button = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.W500,
+        fontFamily = LatoBold,
+        letterSpacing = (1.15).sp,
         fontSize = 14.sp
     ),
     caption = TextStyle(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Normal,
-        fontSize = 12.sp
+        fontSize = 12.sp,
+        letterSpacing = (1.15).sp
     )
-    */
 )
